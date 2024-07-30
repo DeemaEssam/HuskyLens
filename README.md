@@ -11,10 +11,6 @@ This task demonstrates how to use the HuskyLens AI camera module to detect faces
 - **Microcontroller**: (e.g., Arduino, ESP32) to interface with HuskyLens and control the LED.
 - **Power Supply**: To power the components.
 
-## Circuit Diagram
-
-![Circuit Diagram](link-to-circuit-diagram)
-
 ## Installation
 
 1. **Hardware Setup**:

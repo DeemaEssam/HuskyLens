@@ -1,13 +1,3 @@
-/*************************************************** HUSKYLENS An Easy-to-use AI Machine Vision Sensor
- <https://www.dfrobot.com/product-1922.html> 
- *************************************************** This example shows the basic function of library for HUSKYLENS via I2c.
-  Created 2020-03-13
- By [Angelo qiao](Angelo.qiao@dfrobot.com) 
- GNU Lesser General Public License. See <http://www.gnu.org/licenses/> for details.
- All above must be included in any redistribution ****************************************************/
-/***********Notice and Trouble shooting***************
- 1.Connection and Diagram can be found here <https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#target_23>
- 2.This code is tested on Arduino Uno, Leonardo, Mega boards. ****************************************************/
 #include "HUSKYLENS.h"
 HUSKYLENS huskylens;
 //HUSKYLENS green line >> SDA; blue line >> SCLvoid printResult(HUSKYLENSResult result);

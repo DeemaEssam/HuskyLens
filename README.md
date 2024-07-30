@@ -21,18 +21,3 @@ This task demonstrates how to use the HuskyLens AI camera module to detect faces
 2. **Software Setup**:
    - Install the necessary libraries for the HuskyLens and LED control in your development environment.
    - Upload the code to the microcontroller.
-
-## Code
-
-```cpp
-void loop() {
-  if (huskylens.request()) {
-    if (huskylens.isObjectDetected()) {
-      digitalWrite(ledPin, HIGH);  // Turn on LED if face detected
-    } else {
-      digitalWrite(ledPin, LOW);   // Turn off LED if no face detected
-    }
-  }
-  delay(100);  // Small delay to prevent excessive checking
-}
-```
